@@ -1,9 +1,6 @@
 import requests
-import urllib.parse
 
-original = '{"appId":"<điền vào mục này>"}'
-encoded = urllib.parse.quote(original)
-url = f"https://partyrock.aws/api/getApp?input={encoded}"
+url = f"" #Lấy link theo định dạng https://partyrock.aws/api/getApp?input={Encoded JSON App ID}
 
 headers = {
     "Content-Type": "application/json",
