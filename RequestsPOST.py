@@ -15,13 +15,9 @@ payload = {
 }
 
 headers = {
-    "Content-Type": "application/json",
     "Cookie": "",
     "User-Agent": "",
-    "Accept": "*/*",
-    "Accept-Encoding": "gzip, deflate, br, zstd",
     "Referer": "",
-    "Origin": "https://partyrock.aws",
     "Anti-Csrftoken-A2z":""
 }
 
